@@ -18,4 +18,3 @@ Wipe out all tables in a database
 \details{
 Finds all tables within a database and removes them
 }
-
