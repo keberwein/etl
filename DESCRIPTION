@@ -1,8 +1,8 @@
 Package: etl
 Type: Package
 Title: Extract-Transform-Load Framework for Medium Data
-Version: 0.3.5.9004
-Date: 2016-11-28
+Version: 0.3.6
+Date: 2017-07-20
 Authors@R: c(
     person("Ben", "Baumer", email = "ben.baumer@gmail.com",
       role = c("aut", "cre")),
@@ -10,7 +10,7 @@ Authors@R: c(
 Maintainer: Ben Baumer <ben.baumer@gmail.com>
 Description: A framework for loading medium-sized data from
     the Internet to a local or remote relational database management system.
-    This package itself doesn't do much more than provide a toy example and set up
+    This package itself does not do much more than provide a toy example and set up
     the method structure. Packages that depend on this package will facilitate the
     construction and maintenance of their respective databases.
 License: CC0
@@ -33,6 +33,7 @@ Suggests:
     RSQLite,
     RPostgreSQL,
     RMySQL,
+    MonetDBLite,
     ggplot2,
     testthat
 URL: http://github.com/beanumber/etl
